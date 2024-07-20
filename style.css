@@ -1,34 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
 }
 
-header, section, footer {
+header, main, footer {
+    width: 80%;
+    margin: auto;
     background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-h1 {
-    color: #0275d8;
+header h1 {
+    font-size: 24px;
+    color: navy;
 }
 
-h2 {
-    border-bottom: 2px solid #0275d8;
-    padding-bottom: 5px;
+header p, section p {
+    font-size: 16px;
+    color: #333;
 }
 
 a {
-    color: #0275d8;
+    color: #06c;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    border-bottom: 2px solid navy;
+    color: #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
 }
 
 ul {
@@ -38,10 +48,26 @@ ul {
 
 li {
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 footer {
     text-align: center;
-    font-size: 0.8em;
-    color: #666;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.job h3, .project h3 {
+    font-size: 18px;
+    color: darkblue;
+}
+
+.job p, .project p {
+    font-style: italic;
+    color: #555;
 }
